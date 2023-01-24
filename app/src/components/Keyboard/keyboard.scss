@@ -1,0 +1,13 @@
+.keyboard {
+    display: flex;
+    min-width: 100%;
+    min-height: 100%;
+
+    .left-panel {
+        flex: .9;
+        display: grid;
+        grid-template-rows: 1fr 4fr;
+     
+    }
+
+}

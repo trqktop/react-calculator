@@ -1,0 +1,7 @@
+.num-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.num-container .num-0 {
+  grid-column: 1/3;
+}/*# sourceMappingURL=numbers.css.map */

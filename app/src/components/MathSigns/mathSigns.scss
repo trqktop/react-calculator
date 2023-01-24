@@ -1,0 +1,7 @@
+.right-panel {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    flex: .3;
+    min-height: 100%;
+
+}

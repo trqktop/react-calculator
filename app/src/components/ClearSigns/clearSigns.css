@@ -1,0 +1,7 @@
+.top-panel {
+  max-height: -webkit-fit-content;
+  max-height: -moz-fit-content;
+  max-height: fit-content;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}/*# sourceMappingURL=clearSigns.css.map */

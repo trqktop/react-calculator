@@ -1,0 +1,6 @@
+.right-panel {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  flex: 0.3;
+  min-height: 100%;
+}/*# sourceMappingURL=mathSigns.css.map */
