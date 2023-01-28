@@ -12,6 +12,8 @@ export function Calculator() {
     const { changeNumeralStorage,
         changeSimbStorage,
         setCalculate,
+        setDelLastSymbState,
+        setClearState
         // changeMathSignStorage, isCalculateState, changeDotSignStorage, setDelState
     } = React.useContext(Ctx)
     return (
@@ -28,6 +30,12 @@ export function Calculator() {
                         changeSimbStorage(p => ({ prev: p.curr, curr: el }))
                     if (el === '=') {
                         setCalculate(true)
+                    }
+                    if (el === 'C') {
+                        setClearState(true)
+                    }
+                    if (el === '<') {
+                        setDelLastSymbState(true)
                     }
                 }
             }}>

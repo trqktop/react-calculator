@@ -9,12 +9,15 @@
     max-height: 75px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
 
 h1 {
     white-space: nowrap;
     text-overflow: ellipsis;
-    max-width: 100%;
+    min-height: 75px;
+    max-height: 75px;
     display: block;
-    overflow: hidden
+    overflow: hidden;
+
 }

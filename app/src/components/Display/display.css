@@ -14,7 +14,8 @@
 h1 {
   white-space: nowrap;
   text-overflow: ellipsis;
-  max-width: 100%;
+  min-height: 75px;
+  max-height: 75px;
   display: block;
   overflow: hidden;
 }/*# sourceMappingURL=display.css.map */
