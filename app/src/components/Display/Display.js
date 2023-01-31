@@ -1,13 +1,13 @@
 import './display.css'
 import React, { useEffect } from 'react'
-import { Ctx } from '../../App'
+import { Ctx } from '../../components/CtxProvider/CtxProvider'
 export function Display() {
     const { displayedValue } = React.useContext(Ctx)
     const [fontsz, setFontSize] = React.useState(50)
     useEffect(() => {
         if (displayedValue.length > 9) {
             if (fontsz > 20)
-                setFontSize(p => p - 2)
+                setFontSize(p => p - 1.5)
         }
         else {
             setFontSize(50)

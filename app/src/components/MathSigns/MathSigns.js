@@ -3,11 +3,11 @@ import './mathSigns.css'
 export function MathSigns() {
     return (
         <div className='right-panel' >
-            <button>+</button>
-            <button>-</button>
-            <button>/</button>
-            <button>=</button>
-            <button>*</button>
+            <button className='plus'>+</button>
+            <button className='minus'>-</button>
+            <button className='divide'>&divide;</button>
+            <button className='times'>&times;</button>
+            <button className='equal'>=</button>
         </ div>
     )
 }

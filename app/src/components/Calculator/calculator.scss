@@ -2,11 +2,8 @@
     border: 1px rgb(76, 76, 76) solid;
     width: 30vw;
     overflow: hidden;
-    min-height: 40vh;
-    display: flex;
-    flex-direction: column;
-
-
+    display: grid;
+    grid-template-rows: .3fr 1fr;
 
     .container {
         display: flex;
