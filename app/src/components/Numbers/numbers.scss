@@ -1,9 +1,0 @@
-.num-container {
-    height: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-
-    .num-0 {
-        grid-column: 1 / 3
-    }
-}
